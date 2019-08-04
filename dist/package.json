@@ -1,0 +1,37 @@
+{
+  "name": "angular-http-head",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "engines": {
+    "node": "10.14.2",
+    "npm": "6.4.1"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "author": "Inside Develop",
+  "license": "ISC",
+  "private": true,
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.3.1",
+    "express": "^4.17.1",
+    "jquery": "^3.4.1",
+    "ng-request": "0.0.3",
+    "popper.js": "^1.15.0",
+    "request": "^2.88.0",
+    "rxjs": "~6.4.0",
+    "tslib": "^1.9.0",
+    "zone.js": "~0.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1",
+    "ts-node": "~7.0.0",
+    "tslint": "~5.15.0",
+    "typescript": "~3.4.3",
+    "morgan": "^1.9.1"
+  }
+}
